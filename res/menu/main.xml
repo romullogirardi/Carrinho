@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@+id/action_items_amount"
+        android:icon="@drawable/ic_action_edit"
+        android:showAsAction="always" 
+        android:title="@string/lista"/>
+
+    <item 
+        android:id="@+id/action_items"
+        android:icon="@drawable/ic_action_paste" 
+        android:showAsAction="always" 
+        android:title="@string/itens"/>
+    
+</menu>

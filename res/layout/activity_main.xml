@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/text_view_items_selected_total_value"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        android:textSize="@dimen/text_view_total_value_size"
+        android:textStyle="bold"
+        android:text="@string/teste" />
+    
+    <ListView
+        android:id="@+id/list_view_items_selected"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/text_view_items_selected_purchased"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@color/bg_green_items_selected_purchased"
+        android:textSize="@dimen/text_view_total_value_size"
+        android:textStyle="bold"
+        android:text="@string/teste" />
+    
+   <TextView
+        android:id="@+id/text_view_items_selected_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/gradient_bg_gray"
+        android:textSize="@dimen/text_view_total_value_size"
+        android:textStyle="bold"
+        android:text="@string/lista_de_compras_vazia" />
+    
+</LinearLayout>

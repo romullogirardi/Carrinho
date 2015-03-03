@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Carrinho</string>
+    <string name="lista">Lista</string>
+    <string name="itens">Itens</string>
+    <string name="novo_item">Novo item</string>
+    <string name="lista_de_itens">Lista de itens</string>
+    <string name="lista_de_compras">Lista de compras</string>
+    <string name="unidade_de_medida">Unidade de medida: </string>
+    <string name="insira_o_nome">Insira o nome</string>
+    <string name="teste">teste</string>
+    <string name="insira_o_valor">Insira o valor</string>
+    <string name="nome">Nome: </string>
+    <string name="valor">Valor (R$): </string>
+    <string name="lista_de_compras_vazia">LISTA DE COMPRAS VAZIA</string>
+    
+</resources>

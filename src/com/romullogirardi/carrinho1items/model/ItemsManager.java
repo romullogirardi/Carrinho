@@ -6,9 +6,9 @@ import java.util.Vector;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
+import com.romullogirardi.carrinho.R;
 import com.romullogirardi.carrinho0main.model.GlobalReferences;
 import com.romullogirardi.carrinhoutils.FileManipulator;
-import com.romullogirardi.smartlist.R;
 
 public class ItemsManager implements Serializable {
 	private static final long serialVersionUID = -5893144296262452631L;

@@ -30,13 +30,13 @@ import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
+import com.romullogirardi.carrinho.R;
 import com.romullogirardi.carrinho1items.model.DragListener;
 import com.romullogirardi.carrinho1items.model.DragNDropListView;
 import com.romullogirardi.carrinho1items.model.DropListener;
 import com.romullogirardi.carrinho1items.model.ItemsAdapter;
 import com.romullogirardi.carrinho1items.model.ItemsManager;
 import com.romullogirardi.carrinho1items.model.RemoveListener;
-import com.romullogirardi.smartlist.R;
 
 public class ItemsActivity extends ListActivity implements OnItemClickListener {
 

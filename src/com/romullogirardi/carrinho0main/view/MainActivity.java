@@ -15,6 +15,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.romullogirardi.carrinho.R;
 import com.romullogirardi.carrinho0main.model.ItemsSelectedAdapter;
 import com.romullogirardi.carrinho0main.model.GlobalReferences;
 import com.romullogirardi.carrinho1items.model.Item;
@@ -22,7 +23,6 @@ import com.romullogirardi.carrinho1items.model.ItemStatus;
 import com.romullogirardi.carrinho1items.model.ItemsManager;
 import com.romullogirardi.carrinho1items.view.ItemsActivity;
 import com.romullogirardi.carrinho2itemsamount.view.ItemsAmountActivity;
-import com.romullogirardi.smartlist.R;
 
 public class MainActivity extends Activity implements OnItemClickListener {
 

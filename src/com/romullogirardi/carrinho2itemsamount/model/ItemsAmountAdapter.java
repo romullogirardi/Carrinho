@@ -13,10 +13,10 @@ import android.widget.BaseAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.romullogirardi.carrinho.R;
 import com.romullogirardi.carrinho1items.model.Item;
 import com.romullogirardi.carrinho1items.model.ItemsManager;
 import com.romullogirardi.carrinho2itemsamount.view.ItemsAmountActivity;
-import com.romullogirardi.smartlist.R;
 
 public class ItemsAmountAdapter extends BaseAdapter {
 	

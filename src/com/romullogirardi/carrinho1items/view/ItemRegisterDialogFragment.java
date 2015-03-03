@@ -19,10 +19,10 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Spinner;
 
+import com.romullogirardi.carrinho.R;
 import com.romullogirardi.carrinho1items.model.Item;
 import com.romullogirardi.carrinho1items.model.ItemMeasureUnit;
 import com.romullogirardi.carrinho1items.model.ItemsManager;
-import com.romullogirardi.smartlist.R;
 
 public class ItemRegisterDialogFragment extends DialogFragment implements OnClickListener {
 

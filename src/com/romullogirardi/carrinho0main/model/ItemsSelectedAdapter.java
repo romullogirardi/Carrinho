@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 import com.romullogirardi.carrinho1items.model.Item;
 import com.romullogirardi.carrinho1items.model.ItemStatus;
-import com.romullogirardi.smartlist.R;
+import com.romullogirardi.carrinho.R;
 
 public class ItemsSelectedAdapter extends BaseAdapter {
 	private LayoutInflater inflater;

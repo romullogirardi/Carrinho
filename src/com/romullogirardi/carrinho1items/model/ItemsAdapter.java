@@ -19,6 +19,8 @@ package com.romullogirardi.carrinho1items.model;
 import java.text.DecimalFormat;
 import java.util.Vector;
 
+import com.romullogirardi.carrinho.R;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,7 +29,6 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.romullogirardi.smartlist.R;
 
 public final class ItemsAdapter extends BaseAdapter implements RemoveListener, DropListener {
 

@@ -11,11 +11,11 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.romullogirardi.carrinho.R;
 import com.romullogirardi.carrinho1items.model.Item;
 import com.romullogirardi.carrinho1items.model.ItemStatus;
 import com.romullogirardi.carrinho1items.model.ItemsManager;
 import com.romullogirardi.carrinho2itemsamount.model.ItemsAmountAdapter;
-import com.romullogirardi.smartlist.R;
 
 public class ItemsAmountActivity extends Activity {
 

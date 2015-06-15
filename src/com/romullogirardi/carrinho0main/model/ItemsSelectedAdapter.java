@@ -40,7 +40,8 @@ public class ItemsSelectedAdapter extends BaseAdapter {
 		return position;
 	}
 
-	@SuppressLint("NewApi")
+	@SuppressWarnings("deprecation")
+	@SuppressLint({ "NewApi", "InflateParams" })
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 		ViewHolder viewHolder;

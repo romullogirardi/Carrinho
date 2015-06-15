@@ -147,6 +147,7 @@ public class ItemsActivity extends ListActivity implements OnItemClickListener {
 			if (iv != null) iv.setVisibility(View.INVISIBLE);
 		}
 
+		@SuppressWarnings("deprecation")
 		public void onStopDrag(View itemView) {
 			itemView.setVisibility(View.VISIBLE);
 			itemView.setBackgroundDrawable(defaultBackgroundColor);

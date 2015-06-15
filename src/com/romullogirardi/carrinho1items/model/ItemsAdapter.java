@@ -32,7 +32,7 @@ import android.widget.TextView;
 
 public final class ItemsAdapter extends BaseAdapter implements RemoveListener, DropListener {
 
-	private int[] mIds;
+//	private int[] mIds;
 	private int[] mLayouts;
 	private LayoutInflater mInflater;
 	private Vector<Item> mContent;
@@ -48,7 +48,7 @@ public final class ItemsAdapter extends BaseAdapter implements RemoveListener, D
 	private void init(Context context, int[] layouts, int[] ids, Vector<Item> content) {
 		// Cache the LayoutInflate to avoid asking for a new one each time.
 		mInflater = LayoutInflater.from(context);
-		mIds = ids;
+//		mIds = ids;
 		mLayouts = layouts;
 		mContent = content;
 	}
